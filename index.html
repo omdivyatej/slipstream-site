@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slipstream — distribution on autopilot</title>
+<meta name="description" content="Drop your link. We make the short-form content that gets your product seen. Demos, trend videos, ads, and posts, built from just your website.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="/">Slip<b>stream</b></a>
+  <a class="nav-cta" href="#get">Get your batch</a>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">Distribution on autopilot</div>
+  <h1>Drop your link. We make the content that gets you seen.</h1>
+  <p>Product demos, trend videos, ads, and posts, built from just your website. A week of short-form in five minutes, so you never have to feel shy about distribution again.</p>
+  <a class="cta" href="#get">Get your batch <small>· $15</small></a>
+  <div class="undercta">Built it already? The hard part is who sees it. That's us.</div>
+</header>
+
+<section class="does">
+  <div class="does-grid">
+    <div class="does-item"><div class="n">01</div><h3>Product demos</h3><p>A clean demo of your app in one click, from your URL.</p></div>
+    <div class="does-item"><div class="n">02</div><h3>Trend videos</h3><p>The meme formats people actually watch, remixed for you.</p></div>
+    <div class="does-item"><div class="n">03</div><h3>Ad creatives</h3><p>Scroll-stopping ad cuts, ready to run.</p></div>
+    <div class="does-item"><div class="n">04</div><h3>Auto-posting</h3><p>Scheduled to TikTok, Reels, and Shorts.</p></div>
+    <div class="does-item"><div class="n">05</div><h3>Analytics</h3><p>See what lands, do more of it.</p></div>
+  </div>
+</section>
+
+<section class="section-head" id="examples">
+  <h2>See it on real products</h2>
+  <div class="sub">Every piece below was made from nothing but the company's website. Click a name to see the full batch.</div>
+</section>
+<div class="co-cards" id="co-cards"></div>
+
+<section class="offer" id="get">
+  <div class="offer-card">
+    <div class="tag">Founding access</div>
+    <h2>Get your batch — $15</h2>
+    <div class="price">One-time. Founding-member pricing, locked in.</div>
+    <ul>
+      <li><span class="tick">→</span> A custom batch of videos for your product this week</li>
+      <li><span class="tick">→</span> Early access to the platform: 10–20 pieces a week</li>
+      <li><span class="tick">→</span> One-click product demos, ads, and trend videos</li>
+      <li><span class="tick">→</span> Auto-posting and analytics the moment it ships</li>
+    </ul>
+    <a class="cta" href="DODO_PAYMENT_LINK">Get founding access · $15</a>
+  </div>
+</section>
+
+<footer>
+  <b>Slipstream</b> · distribution on autopilot · made for founders who hate marketing
+</footer>
+
+<script>
+  function cover(m){
+    if (m.type === "video") {
+      return `<video src="${m.src}" muted loop playsinline preload="metadata"
+                onmouseover="this.play()" onmouseout="this.pause()"></video>`;
+    }
+    return `<img class="ss" data-slides='${JSON.stringify(m.slides)}' src="${m.slides[0]}" alt="">`;
+  }
+  fetch("media.json").then(r => r.json()).then(data => {
+    document.getElementById("co-cards").innerHTML = data.map(c => `
+      <div class="co-card">
+        <a class="cover-link" href="portfolio.html?c=${c.slug}">
+          <div class="frame"><span class="badge">${c.media.length} pieces</span>${cover(c.media[0])}<span class="viewall">View the batch →</span></div>
+        </a>
+        <div class="co-card-meta">
+          <a class="co" href="portfolio.html?c=${c.slug}">${c.co}</a>
+          <a class="ext" href="${c.href}" target="_blank" rel="noopener">${c.url} ↗</a>
+        </div>
+        <div class="count">${c.media.length} videos &amp; slideshows →</div>
+      </div>`).join("");
+    document.querySelectorAll("img.ss").forEach(img => {
+      const slides = JSON.parse(img.dataset.slides); let i = 0;
+      setInterval(() => { i = (i + 1) % slides.length; img.src = slides[i]; }, 1600);
+    });
+  });
+</script>
+</body>
+</html>

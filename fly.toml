@@ -1,0 +1,12 @@
+# Rename app after you pick the name: `fly apps create <name>` or edit here.
+app = "slipstream-site"
+primary_region = "sin"   # Singapore, closest to India; change if you like
+
+[build]
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0   # scale to zero when idle = ~free

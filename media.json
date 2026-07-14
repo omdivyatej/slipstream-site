@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "fitcheck",
+    "co": "FitCheck",
+    "url": "tryfitcheck.co",
+    "href": "https://tryfitcheck.co",
+    "media": [
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/fitcheck/slideshow-2026-07-14-1/slide-1.jpg",
+          "media/fitcheck/slideshow-2026-07-14-1/slide-2.jpg",
+          "media/fitcheck/slideshow-2026-07-14-1/slide-3.jpg",
+          "media/fitcheck/slideshow-2026-07-14-1/slide-4.jpg",
+          "media/fitcheck/slideshow-2026-07-14-1/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/fitcheck/slideshow-2026-07-14-2/slide-1.jpg",
+          "media/fitcheck/slideshow-2026-07-14-2/slide-2.jpg",
+          "media/fitcheck/slideshow-2026-07-14-2/slide-3.jpg",
+          "media/fitcheck/slideshow-2026-07-14-2/slide-4.jpg",
+          "media/fitcheck/slideshow-2026-07-14-2/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/fitcheck/slideshow-2026-07-14-3/slide-1.jpg",
+          "media/fitcheck/slideshow-2026-07-14-3/slide-2.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/fitcheck/green-screen-2026-07-14-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/fitcheck/green-screen-2026-07-14-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/fitcheck/wall-of-text-2026-07-14-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/fitcheck/wall-of-text-2026-07-14-2.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "heuron",
+    "co": "Heuron",
+    "url": "heuron.news",
+    "href": "https://heuron.news",
+    "media": [
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/heuron/slideshow-2026-07-15-1/slide-1.jpg",
+          "media/heuron/slideshow-2026-07-15-1/slide-2.jpg",
+          "media/heuron/slideshow-2026-07-15-1/slide-3.jpg",
+          "media/heuron/slideshow-2026-07-15-1/slide-4.jpg",
+          "media/heuron/slideshow-2026-07-15-1/slide-5.jpg",
+          "media/heuron/slideshow-2026-07-15-1/slide-6.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/heuron/slideshow-2026-07-15-2/slide-1.jpg",
+          "media/heuron/slideshow-2026-07-15-2/slide-2.jpg",
+          "media/heuron/slideshow-2026-07-15-2/slide-3.jpg",
+          "media/heuron/slideshow-2026-07-15-2/slide-4.jpg",
+          "media/heuron/slideshow-2026-07-15-2/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/heuron/slideshow-2026-07-15-3/slide-1.jpg",
+          "media/heuron/slideshow-2026-07-15-3/slide-2.jpg",
+          "media/heuron/slideshow-2026-07-15-3/slide-3.jpg",
+          "media/heuron/slideshow-2026-07-15-3/slide-4.jpg",
+          "media/heuron/slideshow-2026-07-15-3/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/heuron/slideshow-2026-07-15-4/slide-1.jpg",
+          "media/heuron/slideshow-2026-07-15-4/slide-2.jpg",
+          "media/heuron/slideshow-2026-07-15-4/slide-3.jpg",
+          "media/heuron/slideshow-2026-07-15-4/slide-4.jpg",
+          "media/heuron/slideshow-2026-07-15-4/slide-5.jpg",
+          "media/heuron/slideshow-2026-07-15-4/slide-6.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/heuron/green-screen-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/heuron/green-screen-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/heuron/green-screen-2026-07-15-3.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/heuron/green-screen-2026-07-15-4.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/heuron/green-screen-2026-07-15-5.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/heuron/wall-of-text-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/heuron/wall-of-text-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/heuron/wall-of-text-2026-07-15-3.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "numberthon",
+    "co": "Numberthon",
+    "url": "numberthon.com",
+    "href": "https://numberthon.com",
+    "media": [
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/numberthon/slideshow-2026-07-15-1/slide-1.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-2.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-3.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-4.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-5.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-6.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-7.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-8.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-9.jpg",
+          "media/numberthon/slideshow-2026-07-15-1/slide-10.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-3.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-4.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-5.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-6.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-7.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/numberthon/green-screen-2026-07-15-8.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/numberthon/wall-of-text-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/numberthon/wall-of-text-2026-07-15-2.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "pyngo",
+    "co": "Pyngo",
+    "url": "pyngo.co",
+    "href": "https://pyngo.co",
+    "media": [
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/pyngo/slideshow-2026-07-15-1/slide-1.jpg",
+          "media/pyngo/slideshow-2026-07-15-1/slide-2.jpg",
+          "media/pyngo/slideshow-2026-07-15-1/slide-3.jpg",
+          "media/pyngo/slideshow-2026-07-15-1/slide-4.jpg",
+          "media/pyngo/slideshow-2026-07-15-1/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/pyngo/slideshow-2026-07-15-2/slide-1.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-2.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-3.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-4.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-5.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-6.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-7.jpg",
+          "media/pyngo/slideshow-2026-07-15-2/slide-8.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/pyngo/slideshow-2026-07-15-3/slide-1.jpg",
+          "media/pyngo/slideshow-2026-07-15-3/slide-2.jpg",
+          "media/pyngo/slideshow-2026-07-15-3/slide-3.jpg",
+          "media/pyngo/slideshow-2026-07-15-3/slide-4.jpg",
+          "media/pyngo/slideshow-2026-07-15-3/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/pyngo/green-screen-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/pyngo/green-screen-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/pyngo/green-screen-2026-07-15-3.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/pyngo/green-screen-2026-07-15-4.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/pyngo/wall-of-text-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/pyngo/wall-of-text-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/pyngo/wall-of-text-2026-07-15-3.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/pyngo/wall-of-text-2026-07-15-4.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/pyngo/wall-of-text-2026-07-15-5.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "running",
+    "co": "myTrainingForecast",
+    "url": "mytrainingforecast.run",
+    "href": "https://mytrainingforecast.run",
+    "media": [
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/running/slideshow-2026-07-15-1/slide-1.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-2.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-3.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-4.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-5.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-6.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-7.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-8.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-9.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-10.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-11.jpg",
+          "media/running/slideshow-2026-07-15-1/slide-12.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/running/slideshow-2026-07-15-2/slide-1.jpg",
+          "media/running/slideshow-2026-07-15-2/slide-2.jpg",
+          "media/running/slideshow-2026-07-15-2/slide-3.jpg",
+          "media/running/slideshow-2026-07-15-2/slide-4.jpg",
+          "media/running/slideshow-2026-07-15-2/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/running/slideshow-2026-07-15-3/slide-1.jpg",
+          "media/running/slideshow-2026-07-15-3/slide-2.jpg",
+          "media/running/slideshow-2026-07-15-3/slide-3.jpg",
+          "media/running/slideshow-2026-07-15-3/slide-4.jpg",
+          "media/running/slideshow-2026-07-15-3/slide-5.jpg"
+        ]
+      },
+      {
+        "type": "slideshow",
+        "label": "Slideshow",
+        "slides": [
+          "media/running/slideshow-2026-07-15-4/slide-1.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-2.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-3.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-4.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-5.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-6.jpg",
+          "media/running/slideshow-2026-07-15-4/slide-7.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/running/green-screen-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/running/green-screen-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/running/green-screen-2026-07-15-3.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/running/green-screen-2026-07-15-4.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Green screen",
+        "src": "media/running/green-screen-2026-07-15-5.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/running/wall-of-text-2026-07-15-1.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/running/wall-of-text-2026-07-15-2.mp4"
+      },
+      {
+        "type": "video",
+        "label": "Wall of text",
+        "src": "media/running/wall-of-text-2026-07-15-3.mp4"
+      }
+    ]
+  }
+]
