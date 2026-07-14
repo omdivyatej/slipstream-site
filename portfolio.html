@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio — Slipstream</title>
+<title>Portfolio — Distro</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
-  <a class="brand" href="index.html">Slip<b>stream</b></a>
+  <a class="brand" href="index.html">Dis<b>tro</b></a>
   <a class="nav-back" href="index.html">← All products</a>
 </nav>
 
@@ -31,14 +31,14 @@
   </div>
 </section>
 
-<footer><b>Slipstream</b> · distribution on autopilot</footer>
+<footer><b>Distro</b> · distribution on autopilot</footer>
 
 <script src="app.js"></script>
 <script>
   const slug = new URLSearchParams(location.search).get("c");
   fetch("media.json").then(r => r.json()).then(data => {
     const c = data.find(x => x.slug === slug) || data[0];
-    document.title = `${c.co} — Slipstream`;
+    document.title = `${c.co} — Distro`;
     const vids = c.media.filter(m => m.type === "video").length;
     const shows = c.media.filter(m => m.type === "slideshow").length;
     document.getElementById("pf-head").innerHTML = `
