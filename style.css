@@ -60,11 +60,21 @@ h1{font-size:clamp(34px,6vw,60px);line-height:1.03;font-weight:800;letter-spacin
 .co-card .count{font-size:13px;color:var(--soft);margin-top:3px}
 
 /* portfolio page */
-.pf-head{max-width:1040px;margin:24px auto 0;padding:0 24px}
+.pf-head{max-width:1080px;margin:36px auto 0;padding:0 40px}
 .pf-head h1{font-size:clamp(30px,5vw,48px)}
-.pf-head .pf-sub{color:var(--soft);margin-top:10px;font-size:16px;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.pf-head .pf-sub{color:var(--soft);margin-top:14px;font-size:16px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
 .pf-head .ext{color:var(--ember);text-decoration:none;font-weight:600}
-.pf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;max-width:1040px;margin:30px auto 0;padding:0 24px}
+.pf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:32px 28px;max-width:1080px;margin:44px auto 8px;padding:0 40px}
+
+/* slideshow carousel */
+.ss-frame .nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:30px;height:30px;border:0;border-radius:999px;
+  background:rgba(0,0,0,.5);color:#fff;font-size:17px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.ss-frame .nav:hover{background:rgba(0,0,0,.78)}
+.ss-frame .nav.prev{left:8px}
+.ss-frame .nav.next{right:8px}
+.ss-frame .dots{position:absolute;bottom:9px;left:0;right:0;z-index:3;display:flex;gap:5px;justify-content:center}
+.ss-frame .dots i{width:5px;height:5px;border-radius:99px;background:rgba(255,255,255,.45)}
+.ss-frame .dots i.on{background:#fff}
 
 /* offer */
 .offer{margin:64px auto 40px;max-width:640px;padding:0 24px}

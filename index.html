@@ -57,30 +57,18 @@
   <b>Slipstream</b> · distribution on autopilot · made for founders who hate marketing
 </footer>
 
+<script src="app.js"></script>
 <script>
-  function cover(m){
-    if (m.type === "video") {
-      return `<video src="${m.src}" muted loop playsinline preload="metadata"
-                onmouseover="this.play()" onmouseout="this.pause()"></video>`;
-    }
-    return `<img class="ss" data-slides='${JSON.stringify(m.slides)}' src="${m.slides[0]}" alt="">`;
-  }
   fetch("media.json").then(r => r.json()).then(data => {
     document.getElementById("co-cards").innerHTML = data.map(c => `
       <div class="co-card">
-        <a class="cover-link" href="portfolio.html?c=${c.slug}">
-          <div class="frame"><span class="badge">${c.media.length} pieces</span>${cover(c.media[0])}<span class="viewall">View the batch →</span></div>
-        </a>
+        <a class="cover-link" href="portfolio.html?c=${c.slug}">${coverFrame(c)}</a>
         <div class="co-card-meta">
           <a class="co" href="portfolio.html?c=${c.slug}">${c.co}</a>
           <a class="ext" href="${c.href}" target="_blank" rel="noopener">${c.url} ↗</a>
         </div>
         <div class="count">${c.media.length} videos &amp; slideshows →</div>
       </div>`).join("");
-    document.querySelectorAll("img.ss").forEach(img => {
-      const slides = JSON.parse(img.dataset.slides); let i = 0;
-      setInterval(() => { i = (i + 1) % slides.length; img.src = slides[i]; }, 1600);
-    });
   });
 </script>
 </body>

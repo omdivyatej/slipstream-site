@@ -33,18 +33,9 @@
 
 <footer><b>Slipstream</b> · distribution on autopilot</footer>
 
+<script src="app.js"></script>
 <script>
   const slug = new URLSearchParams(location.search).get("c");
-  function tile(m){
-    if (m.type === "video") {
-      return `<div class="frame"><span class="badge">${m.label}</span>
-        <video src="${m.src}" muted loop playsinline preload="metadata"
-          onmouseover="this.play()" onmouseout="this.pause()"
-          onclick="this.muted=!this.muted;this.play()"></video></div>`;
-    }
-    return `<div class="frame"><span class="badge">${m.label}</span>
-      <img class="ss" data-slides='${JSON.stringify(m.slides)}' src="${m.slides[0]}" alt=""></div>`;
-  }
   fetch("media.json").then(r => r.json()).then(data => {
     const c = data.find(x => x.slug === slug) || data[0];
     document.title = `${c.co} — Slipstream`;
@@ -57,11 +48,7 @@
         <a class="ext" href="${c.href}" target="_blank" rel="noopener">${c.url} ↗</a>
         <span>Made entirely from their website.</span>
       </div>`;
-    document.getElementById("pf-grid").innerHTML = c.media.map(tile).join("");
-    document.querySelectorAll("img.ss").forEach(img => {
-      const slides = JSON.parse(img.dataset.slides); let i = 0;
-      setInterval(() => { i = (i + 1) % slides.length; img.src = slides[i]; }, 1400);
-    });
+    document.getElementById("pf-grid").innerHTML = c.media.map(mediaFrame).join("");
   });
 </script>
 </body>
