@@ -9,6 +9,7 @@ const COMPANIES = [
   { slug: 'numberthon', co: 'Numberthon',         url: 'numberthon.com',        href: 'https://numberthon.com' },
   { slug: 'pyngo',      co: 'Pyngo',              url: 'pyngo.co',              href: 'https://pyngo.co' },
   { slug: 'running',    co: 'myTrainingForecast', url: 'mytrainingforecast.run',href: 'https://mytrainingforecast.run' },
+  { slug: 'satro',      co: 'Satro',              url: 'satro.app',             href: 'https://satro.app' },
 ];
 
 const numsort = (a, b) => a.localeCompare(b, undefined, { numeric: true });
