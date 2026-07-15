@@ -63,7 +63,7 @@ if (_lf) _lf.addEventListener('submit', async (e) => {
     const r = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ access_key: 'WEB3FORMS_ACCESS_KEY', subject: 'New Distro free-list lead', ...data }),
+      body: JSON.stringify({ access_key: 'd7f9b2f6-05ad-4dc5-9a07-c805adbcf151', subject: 'New Distro free-list lead', ...data }),
     });
     const j = await r.json();
     if (j.success) { _lf.reset(); msg.textContent = "You're on the list. We'll reach out when your batch is ready."; }
