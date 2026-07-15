@@ -50,3 +50,26 @@ document.addEventListener('click', (e) => {
   f.querySelector('img').src = slides[i];
   f.querySelectorAll('.dots i').forEach((d, di) => d.classList.toggle('on', di === i));
 });
+
+// Free-list lead capture (Web3Forms: no backend, submissions emailed to you).
+const _lf = document.getElementById('lead-form');
+if (_lf) _lf.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const msg = document.getElementById('lead-msg');
+  msg.className = 'lead-msg';
+  msg.textContent = 'Sending…';
+  const data = Object.fromEntries(new FormData(_lf).entries());
+  try {
+    const r = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ access_key: 'WEB3FORMS_ACCESS_KEY', subject: 'New Distro free-list lead', ...data }),
+    });
+    const j = await r.json();
+    if (j.success) { _lf.reset(); msg.textContent = "You're on the list. We'll reach out when your batch is ready."; }
+    else { msg.className = 'lead-msg err'; msg.textContent = 'Something went wrong, please try again.'; }
+  } catch {
+    msg.className = 'lead-msg err';
+    msg.textContent = 'Something went wrong, please try again.';
+  }
+});
