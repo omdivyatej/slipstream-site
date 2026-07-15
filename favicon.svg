@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Distro">
+  <rect width="512" height="512" rx="112" fill="#1a1917"/>
+  <g fill="none" stroke="#e2542c" stroke-width="58" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="168,148 288,256 168,364"/>
+    <polyline points="276,148 396,256 276,364"/>
+  </g>
+</svg>
