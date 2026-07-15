@@ -106,3 +106,4 @@ footer b{color:var(--ink)}
 #lead-form button:hover{background:#000}
 .lead-msg{font-size:13.5px;color:var(--green);margin-top:12px;min-height:1em}
 .lead-msg.err{color:var(--red)}
+.field-note{font-size:12px;color:var(--soft);margin:-4px 2px 2px;line-height:1.4}

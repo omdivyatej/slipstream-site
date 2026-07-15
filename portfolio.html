@@ -45,9 +45,10 @@
     <p>Early access ($15) jumps the queue and gets a batch every week. The free list is processed whenever we have spare capacity, so it's slower and lower priority, but you're in and we'll reach out when your batch is ready.</p>
     <form id="lead-form">
       <input name="website" type="url" placeholder="Your website URL" required>
-      <input name="email" type="email" placeholder="Email" required>
-      <input name="phone" type="tel" placeholder="Phone / WhatsApp (optional)">
-      <label class="consent"><input type="checkbox" name="consent" required> I'm okay being contacted about my content batch.</label>
+      <input name="phone" type="tel" placeholder="Phone / WhatsApp number" required>
+      <span class="field-note">This is how we reach you. WhatsApp is fastest, it's where we'll send your batch.</span>
+      <input name="email" type="email" placeholder="Email (backup, optional)">
+      <label class="consent"><input type="checkbox" name="consent" required> I'm okay being contacted on WhatsApp or email about my content batch.</label>
       <button type="submit">Join the free list</button>
     </form>
     <p id="lead-msg" class="lead-msg"></p>
